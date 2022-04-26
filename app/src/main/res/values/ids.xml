@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="heading_tag" type="id" />
+    <item name="InputView" type="id" />
+    <item name="clear_screen" type="id" />
+    <item name="output" type="id" />
+    <item name="number_1" type="id" />
+    <item name="number_2" type="id" />
+    <item name="number_3" type="id" />
+    <item name="number_4" type="id" />
+    <item name="number_5" type="id" />
+    <item name="number_6" type="id" />
+    <item name="number_7" type="id" />
+    <item name="number_9" type="id" />
+    <item name="number_0" type="id" />
+    <item name="sumBtn" type="id" />
+    <item name="subBtn" type="id" />
+    <item name="mulBtn" type="id" />
+    <item name="divBtn" type="id" />
+    <item name="calculate" type="id" />
+</resources>
