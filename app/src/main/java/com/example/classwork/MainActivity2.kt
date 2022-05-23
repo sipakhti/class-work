@@ -17,7 +17,7 @@ class MainActivity2 : AppCompatActivity() {
         val test = intent.getIntExtra("test", 0)
         outputField.setText(test.toString())
         subBtn.setOnClickListener {
-            val intent = Intent(FullscreenActivity@this, MainActivity::class.java)
+            val intent = Intent(MainActivity2@this, MainActivity::class.java)
             intent.putExtra("test", if (inputField.text.isEmpty()) 0 else inputField.text.toString().toInt())
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
         }
